@@ -4,6 +4,8 @@ What is given: a customized baseline of video user views(user_id, video_id), vid
 
 Question: Given a video, recommend another video. 
 
-Using Baye's rule, and spell checking assumption given here: http://norvig.com/spell-correct.html, I am trying to demonstrate that it is likely to recommend the same videos, if their watch popularity remains the same. Thus, new videos/content are/is more difficult to join. 
+Using Baye's rule, and spell checking assumptions given here: http://norvig.com/spell-correct.html, I am trying to demonstrate that it is likely to recommend the same videos, if they sustain their watch popularity. Thus, new videos/content are/is more difficult to be included. 
 
 KNN regression algorithm might not return a video of the same category.
+
+Exercise inspired by: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf
